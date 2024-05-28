@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+td {
+    border: 1px solid #000;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+.visit-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.visit-card img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+.visit-card p {
+    margin: 2px 0;
+}
